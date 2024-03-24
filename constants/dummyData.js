@@ -83,6 +83,49 @@ export const result = {
       children: [],
     },
   ],
+  communities: [
+    {
+      id: "community1",
+      name: "Tech Enthusiasts",
+      username: "tech_enthusiasts",
+      bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      members: [
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+      ],
+      image: "/assets/Photo9.png",
+    },
+    {
+      id: "community2",
+      name: "Nature Lovers",
+      username: "nature_lovers",
+      bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      members: [
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+      ],
+      image: "/assets/Photo9.png",
+    },
+    {
+      id: "community3",
+      name: "Artists Community",
+      username: "artists_community",
+      bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      members: [
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+        { image: "/assets/Photo4.jpg" },
+      ],
+      image: "/assets/Photo9.png",
+    },
+  ],
 };
 
 export const suggestedCommunities = {
