@@ -161,3 +161,43 @@ export const similarMinds = {
     },
   ],
 };
+
+
+export const activities = [
+  {
+    _id: "1",
+    parentId: "thread1",
+    act: "liked",
+    author: {
+      name: "John Doe",
+      image: "/assets/Photo9.png",
+    },
+  },
+  {
+    _id: "2",
+    parentId: "thread2",
+    act: "replied",
+    author: {
+      name: "Jane Smith",
+      image: "/assets/Photo9.png",
+    },
+  },
+  {
+    _id: "3",
+    parentId: "thread3",
+    act: "reposted",
+    author: {
+      name: "Alex Johnson",
+      image: "/assets/Photo9.png",
+    },
+  },
+];
+
+export const userInfo = {
+  id: "user123",
+  name: "John Doe",
+  username: "johndoe",
+  image: "/assets/Photo4.jpg",
+  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  threads: [],
+};
